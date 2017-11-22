@@ -16,13 +16,19 @@ main.mdl-layout__content {
 }
 
 main .main-content {
-    padding: 20pt;
+    padding: 30pt;
+}
+
+main .mdl-chip {
+    margin-top: 20pt;
+    margin-bottom: 0;
+    margin-right: 10pt;
 }
 
 main .main-content img {
     width: 80%;
     display: block;
-    margin: 20pt auto 20pt auto;
+    margin: 30pt auto 30pt auto;
 }
 
 main .main-content .mdl-layout__header-row {
@@ -40,6 +46,12 @@ main money currency {
 
 main money interval {
     font-size: 0.8em;
+}
+
+
+main .offer-gallery {
+    margin-top: 30pt;
+    margin-bottom: 30pt;
 }
 
 main .photo-card__image {
