@@ -1,47 +1,71 @@
-.menu li {
-    display: inline-block;
-}
-
-.menu {
-    background-color: rgba(255, 255, 255, 0.4);
+body {
+    background: #e2e2e2;
 }
 
 header {
-    background-image: url('../images/LeCrans_10_ps.jpg');
-    background-repeat: no-repeat;
-    height: 300px;
-    /*position: absolute;*/
+    background: url('../images/LeCrans_10.jpg') no-repeat;
+    background-size: cover;
+    height: 250pt;
 }
 
-main {
-    margin-top: -150px;
+main.mdl-layout__content {
     display: block;
     width: 100%;
+    position: absolute;
+    top: 100pt;
 }
 
-#content {
-    padding: 20px;
+main .main-content {
+    padding: 20pt;
 }
 
-header p {
-    background-color: rgba(255, 255, 255, 0.4);
+main .main-content img {
+    width: 80%;
+    display: block;
+    margin: 20pt auto 20pt auto;
 }
 
-body {
-    background-color: #e2e2e2;
+main .main-content .mdl-layout__header-row {
+    padding-left: 0;
 }
 
-.demo-card-image.mdl-card {
+main money {
+    font-size: 3em;
+}
+
+main money currency {
+    font-size: 0.5em;
+    margin-left: 5pt;
+}
+
+main money interval {
+    font-size: 0.8em;
+}
+
+main .photo-card__image {
+    background-position: center;
+    background-size: cover;
+}
+
+main .photo-card__image .mdl-card {
     width: 256px;
     height: 256px;
 }
-.demo-card-image > .mdl-card__actions {
-    height: 52px;
-    padding: 16px;
-    background: rgba(0, 0, 0, 0.2);
+main .photo-card__image > .mdl-card__actions {
+    background: rgba(0, 0, 0, 0.4);
 }
-.demo-card-image__filename {
+main .photo-card__image .photo-card-image__caption {
     color: #fff;
-    font-size: 14px;
+    font-size: 0.8em;
+    padding: 16pt;
     font-weight: 500;
+}
+
+main .contact-form .mdl-textfield {
+    width: 80%;
+}
+
+main .contact-form .mdl-list__item {
+    padding-top: 0;
+    padding-bottom: 0;
 }
