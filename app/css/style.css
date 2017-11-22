@@ -57,12 +57,9 @@ main .offer-gallery {
 main .photo-card__image {
     background-position: center;
     background-size: cover;
+    width: 100%;
 }
 
-main .photo-card__image .mdl-card {
-    width: 256px;
-    height: 256px;
-}
 main .photo-card__image > .mdl-card__actions {
     background: rgba(0, 0, 0, 0.4);
 }
